@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "sara-profile",
+      "description": "Portrait of Sara Gavilán, junior web developer, React and SQL.",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1_L7KslPUYApZgcLrGhvNTRjOcRo6btQE",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "natura-puzzle",
+      "description": "Natura Puzzle project screenshot",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1CzyduoYMGupvkTQnspSQ-IO3SyBH2ohs",
+      "imageHint": "puzzle game"
+    },
+    {
+      "id": "poke-finder",
+      "description": "Poke Finder project screenshot",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1mGicb556JhM4my1qT3csdXidzmLF7Rxj",
+      "imageHint": "search app"
+    }
+  ]
+}
