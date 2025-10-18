@@ -1,6 +1,5 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { portfolioData } from '@/lib/portfolio-data';
-import { AiInsight } from '@/components/landing/ai-insight';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { portfolioData } from "@/lib/portfolio-data";
 
 export function Stack() {
   const { title, categories } = portfolioData.stack;
@@ -15,16 +14,15 @@ export function Stack() {
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {categories.map((category) => (
-            <Card key={category.name} className="flex flex-col text-center bg-background shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <Card
+              key={category.name}
+              className="flex flex-col text-center bg-background shadow-lg hover:shadow-xl transition-shadow duration-300"
+            >
               <CardHeader className="flex flex-col items-center space-y-4 pb-2">
                 <CardTitle className="text-base font-medium flex flex-col items-center gap-2 text-primary">
                   {category.icon && <category.icon className="h-7 w-7" />}
                   {category.name}
                 </CardTitle>
-                <AiInsight
-                  techStack={category.items.join(', ')}
-                  userQuery={category.aiQueryHint}
-                />
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
