@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export function Hero() {
-  const profileImage = PlaceHolderImages.find(p => p.id === 'sara-profile');
+  const profileImage = PlaceHolderImages.find((p) => p.id === "sara-profile");
 
   return (
     <section id="home" className="w-full py-24 md:py-32 lg:py-40 bg-background">
@@ -15,14 +15,23 @@ export function Hero() {
               Sara Gavilán: Junior Web Developer
             </h1>
             <h2 className="max-w-[700px] text-foreground/80 md:text-xl font-body mx-auto lg:mx-0">
-              Code, Data, and Creativity. My focus: technology as a tool to drive sustainability and social progress.
+              Code, Data, and Creativity. My focus: technology as a tool to
+              drive sustainability and social progress.
             </h2>
             <div className="flex flex-col gap-4 sm:flex-row justify-center lg:justify-start">
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+              <Button
+                asChild
+                size="lg"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground"
+              >
                 <Link href="#projects">View Projects</Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="https://www.linkedin.com/in/saragavilan/" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://www.linkedin.com/in/saragavilan/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Connect on LinkedIn
                 </Link>
               </Button>
@@ -35,7 +44,7 @@ export function Hero() {
                 alt={profileImage.description}
                 width={400}
                 height={400}
-                className="rounded-full object-cover aspect-square shadow-2xl"
+                className="rounded-full object-cover aspect-square shadow-2xl border-2 border-amber-300"
                 data-ai-hint={profileImage.imageHint}
                 priority
               />

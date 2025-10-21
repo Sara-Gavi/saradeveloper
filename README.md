@@ -1,4 +1,4 @@
-# DevBySara
+# SaraDeveloper
 
 Personal portfolio created with AI using Next.js, TypeScript, and Tailwind CSS in Firebase Studio.
 
