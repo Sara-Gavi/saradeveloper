@@ -44,7 +44,7 @@ export function Hero() {
                 alt={profileImage.description}
                 width={400}
                 height={400}
-                className="rounded-full object-cover aspect-square shadow-2xl border-2 border-amber-300"
+                className="rounded-full object-cover aspect-square shadow-2xl border-2 border-amber-100"
                 data-ai-hint={profileImage.imageHint}
                 priority
               />
