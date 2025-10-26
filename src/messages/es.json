@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "contact": "Contacto",
+    "lang.en": "EN",
+    "lang.es": "ES"
+  },
+  "hero": {
+    "title": "Sara Gavilán: Desarrolladora Web Junior",
+    "subtitle": "Código, Datos y Creatividad. Mi visión: tecnología como herramienta para impulsar la sostenibilidad y el desarrollo de la sociedad.",
+    "viewProjects": "Ver Proyectos",
+    "connectLinkedin": "Conectar en LinkedIn"
+  },
+  "about": {
+    "title": "De la curiosidad al código.",
+    "text": "Actualmente participo en el desarrollo de una aplicación en React Native y continúo formándome en Análisis de Datos y Desarrollo + IA. Mi perfil es versátil: aportaré una visión técnica y analítica a proyectos con propósito."
+  },
+  "projects": {
+    "title": "Algunos de mis proyectos",
+    "cta": "Probar online"
+  },
+  "stack": {
+    "title": "Stack con el que practico: React, Node, SQL y R"
+  },
+  "contact": {
+    "title": "¿Hablamos?",
+    "text": "Estoy abierta a colaboraciones y a nuevas oportunidades que alineen tecnología con un propósito positivo."
+  },
+  "footer": {
+    "line1": "© 2025 Sara Gavilán | Junior Developer. Web · Datos · Creatividad.",
+    "line2": "Portfolio personal desarrollado con IA, Next.js, Tailwind CSS y TypeScript."
+  }
+}

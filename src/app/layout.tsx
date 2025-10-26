@@ -1,19 +1,14 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import { Toaster } from "@/components/ui/toaster";
-
-export const metadata: Metadata = {
-  title: "Sara Gavilán developer portfolio",
-  description: "Junior Web Developer. Web, Data, Creativity.",
-};
+import es from "@/messages/es.json";
+import LangProvider from "@/components/providers/LangProvider";
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="es" className="scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -27,8 +22,8 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body antialiased bg-background text-foreground">
-        {children}
-        <Toaster />
+        {/* los textos JSON planos */}
+        <LangProvider messages={es}>{children}</LangProvider>
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ import { Stack } from "@/components/landing/stack";
 import { Contact } from "@/components/landing/contact";
 import { Footer } from "@/components/landing/footer";
 
-export default function Home() {
+export default function HomeEn() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />

@@ -1,25 +1,51 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { portfolioData } from '@/lib/portfolio-data';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { usePathname } from "next/navigation";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { useLang } from "@/hooks/useLang";
+
+// Decido según idioma
+import { portfolioData as portfolioDataEs } from "@/lib/portfolio-data.es";
+import { portfolioData as portfolioDataEn } from "@/lib/portfolio-data";
 
 export function Projects() {
+  const t = useLang("projects");
+  const pathname = usePathname();
+
+  // Si la ruta empieza con /en, uso el inglés
+  const portfolioData = pathname.startsWith("/en")
+    ? portfolioDataEn
+    : portfolioDataEs;
+
   return (
     <section id="projects" className="w-full py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter text-primary sm:text-4xl md:text-5xl font-headline">
-            Some of My Projects
+            {t("title")}
           </h2>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
           {portfolioData.projects.map((project) => {
-            const projectImage = PlaceHolderImages.find(p => p.id === project.imageId);
+            const projectImage = PlaceHolderImages.find(
+              (p) => p.id === project.imageId
+            );
             return (
-              <Card key={project.title} className="overflow-hidden flex flex-col shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Card
+                key={project.title}
+                className="overflow-hidden flex flex-col shadow-lg hover:shadow-xl transition-shadow duration-300"
+              >
                 {projectImage && (
                   <div className="aspect-video relative">
                     <Image
@@ -39,14 +65,23 @@ export function Projects() {
                   <p className="text-muted-foreground">{project.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
-                      <Badge key={tech} variant="secondary">{tech}</Badge>
+                      <Badge key={tech} variant="secondary">
+                        {tech}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
-                    <Link href={project.link} target="_blank" rel="noopener noreferrer">
-                      Try Online
+                  <Button
+                    asChild
+                    className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                  >
+                    <Link
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {t("cta")}
                     </Link>
                   </Button>
                 </CardFooter>
