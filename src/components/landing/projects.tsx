@@ -81,7 +81,7 @@ export function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {t("cta")}
+                      {project.cta ? project.cta : t("cta")}
                     </Link>
                   </Button>
                 </CardFooter>

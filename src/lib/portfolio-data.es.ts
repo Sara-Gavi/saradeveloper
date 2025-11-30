@@ -16,7 +16,8 @@ export const portfolioData = {
       description:
         "Experiencia desarrollando un MVP móvil con React Native y Firebase. Proyecto privado en desarrollo que crea una red colaborativa donde cada viajera puede guardar sus rutas y descubrir experiencias.",
       technologies: ["React Native", "Expo", "Firebase", "NativeWind"],
-      link: "",
+      link: "/mobile-mvp",
+      cta: "Explorar el MVP",
     },
     {
       title: "Natura Puzzle",
