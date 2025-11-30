@@ -17,6 +17,12 @@
       "description": "Poke Finder project screenshot",
       "imageUrl": "/img/poke-finder.png",
       "imageHint": "search app"
+    },
+    {
+      "id": "mockup-react-native",
+      "description": "Mockup de la app React Native Vume",
+      "imageUrl": "/img/mockup-react-native.png",
+      "imageHint": "mobile app mockup"
     }
   ]
 }

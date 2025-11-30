@@ -11,10 +11,18 @@ import {
 export const portfolioData = {
   projects: [
     {
+      title: "MVP en React Native para comunidad de mujeres viajeras",
+      imageId: "mockup-react-native",
+      description:
+        "Experiencia desarrollando un MVP móvil con React Native y Firebase. Proyecto privado en desarrollo que crea una red colaborativa donde cada viajera puede guardar sus rutas y descubrir experiencias.",
+      technologies: ["React Native", "Expo", "Firebase", "NativeWind"],
+      link: "",
+    },
+    {
       title: "Natura Puzzle",
       imageId: "natura-puzzle",
       description:
-        "Juego tipo puzzle en React que demuestra lógica compleja e interfaz ligera.",
+        "Explora curiosidades sobre la naturaleza a través de un juego tipo puzzle desarrollado en React. Presenta una interfaz ligera y aplica lógica interactiva, con potencial para seguir evolucionando. ",
       technologies: ["React", "JavaScript", "CSS"],
       link: "https://sara-gavi.github.io/Natura-puzzle/",
     },
