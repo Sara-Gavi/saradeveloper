@@ -14,7 +14,7 @@ export const portfolioData = {
       title: "MVP en React Native para comunidad de mujeres viajeras",
       imageId: "mockup-react-native",
       description:
-        "Experiencia desarrollando un MVP móvil con React Native y Firebase. Proyecto privado en desarrollo que crea una red colaborativa donde cada viajera puede guardar sus rutas y descubrir experiencias.",
+        "Experiencia desarrollando un MVP móvil con React Native y Firebase. Proyecto privado en desarrollo que crea una red colaborativa.",
       technologies: ["React Native", "Expo", "Firebase", "NativeWind"],
       link: "/mobile-mvp",
       cta: "Explorar el MVP",
