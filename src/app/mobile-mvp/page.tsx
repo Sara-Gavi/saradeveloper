@@ -19,9 +19,10 @@ export default function MobileMvpPage() {
                 1. Maquetación de pantallas en React Native
               </h3>
               <p className="text-xs text-gray-800 leading-relaxed">
-                Desarrollo de la interfaz siguiendo diseños de Figma, aplicando
-                maquetación responsive y componentes reutilizables con
-                TypeScript y Tailwind (nativewind).
+                Desarrollo de la interfaz siguiendo diseños de Figma, utilizando
+                TypeScript y NativeWind, e implementando componentes como
+                ScrollView y useSafeAreaInsets() para adaptar correctamente las
+                pantallas a distintos dispositivos.
               </p>
             </div>
 
