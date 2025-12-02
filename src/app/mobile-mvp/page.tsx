@@ -21,8 +21,7 @@ export default function MobileMvpPage() {
               <p className="text-xs text-gray-800 leading-relaxed">
                 Desarrollo de la interfaz siguiendo diseños de Figma, utilizando
                 TypeScript y NativeWind, e implementando componentes como
-                ScrollView y useSafeAreaInsets() para adaptar las pantallas a
-                distintos dispositivos.
+                ScrollView y control de las áreas seguras de los dispositivos.
               </p>
             </div>
 
