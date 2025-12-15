@@ -37,7 +37,7 @@ export const portfolioData = {
     },
   ],
   stack: {
-    title: "Stack con el que practico: React, Node, SQL y R",
+    title: "Stack con el que practico: React, Node y SQL",
     categories: [
       {
         name: "Lenguajes y Frameworks",
@@ -57,7 +57,7 @@ export const portfolioData = {
       {
         name: "Herramientas de Datos",
         icon: BarChart3,
-        items: ["SQL", "R", "Tableau", "Data Studio", "Google Sheets"],
+        items: ["SQL", "R", "Tableau", "BigQuery", "Google Sheets"],
       },
       {
         name: "Desarrollo + IA (Inicial)",
