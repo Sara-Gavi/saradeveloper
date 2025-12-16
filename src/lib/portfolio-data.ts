@@ -28,6 +28,15 @@ export const portfolioData = {
       link: "https://sara-gavi.github.io/Natura-puzzle/",
     },
     {
+      title: "Two Ways to Use a Bike - Case Study",
+      imageId: "cyclistic-case-study",
+      description:
+        "This project follows the complete data analysis process using SQL, Excel, Tableau and helps me develop my analytical skills as a developer while exploring user behavior in a bike-share service and turning insights into action.",
+      technologies: ["SQL", "BigQuery", "Tableau", "Excel"],
+      link: "https://github.com/Sara-Gavi/Cyclistic-Bike-Share-Case-Study",
+      cta: "View case study",
+    },
+    {
       title: "Poke Finder",
       imageId: "poke-finder",
       description:

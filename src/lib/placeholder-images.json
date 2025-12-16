@@ -23,6 +23,12 @@
       "description": "Mockup de la app React Native Vume",
       "imageUrl": "/img/mockup-react-native.png",
       "imageHint": "mobile app mockup"
+    },
+    {
+      "id": "cyclistic-case-study",
+      "description": "Cyclistic Bike Share data analysis case study dashboard and insights",
+      "imageUrl": "/img/case_study.png",
+      "imageHint": "data analysis dashboard"
     }
   ]
 }
