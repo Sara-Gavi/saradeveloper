@@ -9,27 +9,27 @@
   },
   "hero": {
     "title": "Sara Gavilán: Junior Web Developer",
-    "subtitle": "Code, Data, and Creativity. I use technology to drive sustainability and social progress.",
+    "subtitle": "Code, Cloud, Data and Creativity. My vision: technology as a tool to drive sustainability and social development.",
     "viewProjects": "View Projects",
     "connectLinkedin": "Connect on LinkedIn"
   },
   "about": {
     "title": "From Curiosity to Code.",
-    "text": "I’m currently participating in the development of a React Native application and continuing my education in Data Analysis and Development + AI. My profile is versatile: I’m ready to bring a technical and analytical vision to purpose-driven projects."
+    "text": "Participation in the development of a real-world application using React Native and Firebase, working with real data and collaborating with development and UX/UI design teams. I have completed the Google Data Analytics Certificate and continue building my skills in Cloud Computing with AWS, with a holistic perspective that allows me to adapt to different project contexts and requirements."
   },
   "projects": {
     "title": "Some of My Projects",
     "cta": "Try Online"
   },
   "stack": {
-    "title": "Stack I Practice With: React, Node, SQL and R"
+    "title": "Stack I Practice With: React, Node, SQL and Cloud (AWS)"
   },
   "contact": {
     "title": "Let’s Talk.",
     "text": "I’m open to collaborations and new opportunities that align technology with a positive purpose."
   },
   "footer": {
-    "line1": "© 2025 Sara Gavilán | Junior Developer. Web · Data · Creativity.",
+    "line1": "© 2025 Sara Gavilán | Junior Developer. Web · Cloud · Data · Creativity.",
     "line2": "Personal portfolio developed with Next.js, Tailwind CSS, and TypeScript."
   }
 }

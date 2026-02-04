@@ -46,40 +46,55 @@ export const portfolioData = {
     },
   ],
   stack: {
-    title: "Stack con el que practico: React, Node y SQL",
+    title: "Stack tecnológico",
     categories: [
       {
-        name: "Lenguajes y Frameworks",
+        name: "Desarrollo Frontend & Móvil",
         icon: Code2,
-        items: ["JavaScript", "TypeScript", "React", "React Native", "Node.js"],
+        items: [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "React Native",
+          "HTML",
+          "CSS",
+          "Tailwind",
+        ],
       },
       {
-        name: "Frontend y APIs",
+        name: "Backend & APIs",
         icon: LayoutPanelLeft,
-        items: ["HTML", "CSS", "Tailwind", "Consumo de APIs"],
+        items: ["Node.js", "Consumo de APIs", "Firebase", "MongoDB", "MySQL"],
       },
       {
-        name: "Bases de datos y DevOps",
+        name: "Cloud & DevOps",
         icon: Database,
-        items: ["Git", "MySQL", "MongoDB", "Firebase"],
+        items: [
+          "AWS (EC2, S3, IAM, VPC)",
+          "Fundamentos de redes y seguridad en la nube",
+          "Linux (línea de comandos)",
+          "Gestión de recursos en la nube",
+        ],
       },
       {
-        name: "Herramientas de Datos",
+        name: "Datos & Analítica",
         icon: BarChart3,
-        items: ["SQL", "R", "Tableau", "BigQuery", "Google Sheets"],
+        items: ["SQL", "R", "BigQuery", "Tableau", "Excel", "Google Sheets"],
       },
       {
-        name: "Desarrollo + IA (Inicial)",
+        name: "Desarrollo asistido por IA & Automatización",
         icon: Bot,
         items: [
-          "Ingeniería de Prompts y Gestión del Conocimiento (NotebookLM)",
-          "Automatización de Flujos (n8n)",
-          "TDD Asistido por IA",
-          "Seguridad y Auditoría con IA",
+          "Ingeniería de prompts",
+          "Gestión del conocimiento (NotebookLM)",
+          "Automatización de flujos (n8n)",
+          "TDD asistido por IA",
+          "Seguridad y auditoría con IA",
         ],
       },
     ],
   },
+
   contact: {
     socials: [
       {
