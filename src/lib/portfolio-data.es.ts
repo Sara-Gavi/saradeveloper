@@ -37,6 +37,15 @@ export const portfolioData = {
       cta: "Ver case study",
     },
     {
+      title: "Juego interactivo para aprendizaje de AWS S3",
+      imageId: "mockup-game",
+      description:
+        "Juego web interactivo con estética de consola retro, desarrollado con Vanilla JavaScript y desplegado como sitio web estático en Amazon S3. Proyecto colaborativo realizado como práctica dentro de la formación AWS re/Start.",
+      technologies: ["Vanilla JavaScript", "AWS S3"],
+      link: "https://sara-gavi.github.io/aws-s3-guide/",
+      cta: "Ver online",
+    },
+    {
       title: "Poke Finder",
       imageId: "poke-finder",
       description:

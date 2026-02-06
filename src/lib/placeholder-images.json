@@ -29,6 +29,12 @@
       "description": "Cyclistic Bike Share data analysis case study dashboard and insights",
       "imageUrl": "/img/case_study.png",
       "imageHint": "data analysis dashboard"
+    },
+    {
+      "id": "mockup-game",
+      "description": "AWS static website game project screenshot",
+      "imageUrl": "/img/mockup-game.png",
+      "imageHint": "retro web game interface"
     }
   ]
 }

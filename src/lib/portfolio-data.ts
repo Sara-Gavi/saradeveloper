@@ -11,7 +11,7 @@ import {
 export const portfolioData = {
   projects: [
     {
-      title: "MVP in React Native for a community of women travelers",
+      title: "MVP in React Native for a Community of Women Travelers",
       imageId: "mockup-react-native",
       description:
         "Hands-on experience collaborating on a mobile MVP built with React Native and Firebase. Private project currently in development that creates a collaborative network.",
@@ -23,28 +23,38 @@ export const portfolioData = {
       title: "Natura Puzzle",
       imageId: "natura-puzzle",
       description:
-        "Explore curiosities about nature through a puzzle-style game developed in React. It features a lightweight interface and applies interactive logic, with potential to keep evolving",
+        "Explore curiosities about nature through a puzzle-style game developed in React. It features a lightweight interface and applies interactive logic, with potential to keep evolving.",
       technologies: ["React", "JavaScript", "CSS"],
       link: "https://sara-gavi.github.io/Natura-puzzle/",
     },
     {
-      title: "Two Ways to Use a Bike - Case Study",
+      title: "Two Ways to Use a Bike – Case Study",
       imageId: "cyclistic-case-study",
       description:
-        "This project follows the complete data analysis process using SQL, Excel, Tableau and helps me develop my analytical skills as a developer while exploring user behavior in a bike-share service and turning insights into action.",
+        "This project follows the complete data analysis process using SQL, Excel and Tableau, helping me develop analytical skills while exploring user behavior in a bike-sharing service and transforming insights into actions.",
       technologies: ["SQL", "BigQuery", "Tableau", "Excel"],
       link: "https://github.com/Sara-Gavi/Cyclistic-Bike-Share-Case-Study",
       cta: "View case study",
     },
     {
+      title: "Static Website Hosting Practice on AWS",
+      imageId: "mockup-game",
+      description:
+        "Interactive web game with a retro console-inspired interface, built with Vanilla JavaScript and deployed as a static website on Amazon S3. Collaborative project developed as part of the AWS re/Start training program.",
+      technologies: ["Vanilla JavaScript", "AWS S3"],
+      link: "https://sara-gavi.github.io/aws-s3-guide/",
+      cta: "View online",
+    },
+    {
       title: "Poke Finder",
       imageId: "poke-finder",
       description:
-        "React/JS search app focused on flawless UX and API consumption.",
+        "React/JavaScript search application focused on smooth user experience and API consumption.",
       technologies: ["React", "JavaScript", "APIs"],
       link: "https://sara-gavi.github.io/poke-finder/",
     },
   ],
+
   stack: {
     title: "Stack I Practice With: React, Node, SQL and Cloud (AWS)",
     categories: [
@@ -99,6 +109,7 @@ export const portfolioData = {
       },
     ],
   },
+
   contact: {
     socials: [
       {
