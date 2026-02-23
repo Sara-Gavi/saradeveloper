@@ -20,6 +20,21 @@ export const portfolioData = {
       cta: "Explore the MVP",
     },
     {
+      title: "Library Graph - Serverless Visualization on AWS",
+      imageId: "mockup-library",
+      description:
+        "Web application that visualizes books and categories through an interactive graph. Built on a serverless AWS architecture using Amazon S3, AWS Lambda and DynamoDB. Collaborative project completed during the AWS re/Start training program.",
+      technologies: [
+        "Vanilla JavaScript",
+        "AWS Lambda",
+        "AWS DynamoDB",
+        "AWS S3",
+        "Cytoscape.js",
+      ],
+      link: "https://sara-gavi.github.io/library-graph/",
+      cta: "View online",
+    },
+    {
       title: "Natura Puzzle",
       imageId: "natura-puzzle",
       description:
@@ -28,7 +43,7 @@ export const portfolioData = {
       link: "https://sara-gavi.github.io/Natura-puzzle/",
     },
     {
-      title: "Two Ways to Use a Bike – Case Study",
+      title: "Two Ways to Use a Bike - Case Study",
       imageId: "cyclistic-case-study",
       description:
         "This project follows the complete data analysis process using SQL, Excel and Tableau, helping me develop analytical skills while exploring user behavior in a bike-sharing service and transforming insights into actions.",

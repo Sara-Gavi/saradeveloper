@@ -20,6 +20,21 @@ export const portfolioData = {
       cta: "Explorar el MVP",
     },
     {
+      title: "Library Graph - Visualización serverless en AWS",
+      imageId: "mockup-library",
+      description:
+        "Aplicación web que visualiza libros y categorías mediante un grafo interactivo. Implementa una arquitectura serverless en AWS con S3, Lambda y DynamoDB. Proyecto colaborativo realizado durante la formación AWS re/Start.",
+      technologies: [
+        "Vanilla JavaScript",
+        "AWS Lambda",
+        "AWS DynamoDB",
+        "AWS S3",
+        "Cytoscape.js",
+      ],
+      link: "https://sara-gavi.github.io/library-graph/",
+      cta: "Ver online",
+    },
+    {
       title: "Natura Puzzle",
       imageId: "natura-puzzle",
       description:

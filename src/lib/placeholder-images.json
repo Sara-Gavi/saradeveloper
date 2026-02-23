@@ -35,6 +35,12 @@
       "description": "AWS static website game project screenshot",
       "imageUrl": "/img/mockup-game.png",
       "imageHint": "retro web game interface"
+    },
+    {
+      "id": "mockup-library",
+      "description": "Library Graph serverless visualization project deployed on AWS",
+      "imageUrl": "/img/mockup-library.png",
+      "imageHint": "graph visualization web app"
     }
   ]
 }
